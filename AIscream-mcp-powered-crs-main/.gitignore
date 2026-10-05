@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment variables (keep secrets safe!)
+.env
+.env.local
+frontend/.env.local
+backend/app.db
+
+# Node modules (for frontend)
+node_modules/
+
+# Next.js build output
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
